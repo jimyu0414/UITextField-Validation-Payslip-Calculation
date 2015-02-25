@@ -1,22 +1,26 @@
 //
-//  MonthlyPayslipTests.m
-//  MonthlyPayslipTests
+//  PaySlipCalculatorTest.m
+//  MonthlyPayslip
 //
-//  Created by yu on 19/02/2015.
+//  Created by yu on 25/02/2015.
 //  Copyright (c) 2015 yu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+
 #import <XCTest/XCTest.h>
+#import "PaySlipCalculator.h"
 
-@interface MonthlyPayslipTests : XCTestCase
-
+@interface PaySlipCalculatorTest : XCTestCase
+{
+    PaySlipCalculator *calculator;
+}
 @end
 
-@implementation MonthlyPayslipTests
+@implementation PaySlipCalculatorTest
 
 - (void)setUp {
     [super setUp];
+    calculator = [[PaySlipCalculator alloc] init];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
@@ -25,9 +29,15 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+-(void)testgetGrossIncom
+{
+    NSString *str = @"5500.44";
+    NSInteger income = [calculator getGrossIncom:str];
+    BOOL flag = false;
+    if (income >0) {
+        flag = true;
+    }
+    XCTAssert(flag);
 }
 
 - (void)testPerformanceExample {

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PayslipsController.h
 //  MonthlyPayslip
 //
 //  Created by yu on 19/02/2015.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import "Employee.h"
+@interface PayslipsController : UITableViewController
+@property NSMutableArray *Employees;
 @end
-

@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A1F781A1A986E2000C2B56A /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F78191A986E2000C2B56A /* Employee.m */; };
 		9AD094501A95F8FA0093D9AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD0944F1A95F8FA0093D9AC /* main.m */; };
 		9AD094531A95F8FA0093D9AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD094521A95F8FA0093D9AC /* AppDelegate.m */; };
 		9AD094561A95F8FA0093D9AC /* MonthlyPayslip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AD094541A95F8FA0093D9AC /* MonthlyPayslip.xcdatamodeld */; };
-		9AD094591A95F8FA0093D9AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD094581A95F8FA0093D9AC /* ViewController.m */; };
 		9AD0945C1A95F8FA0093D9AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD0945A1A95F8FA0093D9AC /* Main.storyboard */; };
 		9AD0945E1A95F8FA0093D9AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD0945D1A95F8FA0093D9AC /* Images.xcassets */; };
 		9AD094611A95F8FA0093D9AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AD0945F1A95F8FA0093D9AC /* LaunchScreen.xib */; };
-		9AD0946D1A95F8FB0093D9AC /* MonthlyPayslipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD0946C1A95F8FB0093D9AC /* MonthlyPayslipTests.m */; };
+		9AD0947C1A95FC9B0093D9AC /* PayslipsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD0947B1A95FC9B0093D9AC /* PayslipsController.m */; };
+		9AD0947F1A95FCEE0093D9AC /* InputPayslipController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD0947E1A95FCEE0093D9AC /* InputPayslipController.m */; };
+		9AD59A591A9DA18800B4A222 /* TextfieldValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD59A581A9DA18800B4A222 /* TextfieldValidation.m */; };
+		9AD59A5F1A9DA56F00B4A222 /* TextfieldValidationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD59A5E1A9DA56F00B4A222 /* TextfieldValidationTests.m */; };
+		9AD59A611A9DA78B00B4A222 /* PaySlipCalculatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD59A601A9DA78B00B4A222 /* PaySlipCalculatorTest.m */; };
+		9AD59A641A9DA7B400B4A222 /* PaySlipCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD59A631A9DA7B400B4A222 /* PaySlipCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +33,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A1F78181A986E1F00C2B56A /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		9A1F78191A986E2000C2B56A /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 		9AD0944A1A95F8FA0093D9AC /* MonthlyPayslip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonthlyPayslip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD0944E1A95F8FA0093D9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AD0944F1A95F8FA0093D9AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AD094511A95F8FA0093D9AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AD094521A95F8FA0093D9AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9AD094551A95F8FA0093D9AC /* MonthlyPayslip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MonthlyPayslip.xcdatamodel; sourceTree = "<group>"; };
-		9AD094571A95F8FA0093D9AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9AD094581A95F8FA0093D9AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AD0945B1A95F8FA0093D9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AD0945D1A95F8FA0093D9AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9AD094601A95F8FA0093D9AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9AD094661A95F8FB0093D9AC /* MonthlyPayslipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonthlyPayslipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD0946B1A95F8FB0093D9AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AD0946C1A95F8FB0093D9AC /* MonthlyPayslipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonthlyPayslipTests.m; sourceTree = "<group>"; };
+		9AD0947A1A95FC9B0093D9AC /* PayslipsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayslipsController.h; sourceTree = "<group>"; };
+		9AD0947B1A95FC9B0093D9AC /* PayslipsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayslipsController.m; sourceTree = "<group>"; };
+		9AD0947D1A95FCEE0093D9AC /* InputPayslipController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputPayslipController.h; sourceTree = "<group>"; };
+		9AD0947E1A95FCEE0093D9AC /* InputPayslipController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputPayslipController.m; sourceTree = "<group>"; };
+		9AD59A571A9DA18800B4A222 /* TextfieldValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextfieldValidation.h; path = ../TextfieldValidation.h; sourceTree = "<group>"; };
+		9AD59A581A9DA18800B4A222 /* TextfieldValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextfieldValidation.m; path = ../TextfieldValidation.m; sourceTree = "<group>"; };
+		9AD59A5E1A9DA56F00B4A222 /* TextfieldValidationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextfieldValidationTests.m; sourceTree = "<group>"; };
+		9AD59A601A9DA78B00B4A222 /* PaySlipCalculatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaySlipCalculatorTest.m; path = ../MonthlyPayslip/PaySlipCalculatorTest.m; sourceTree = "<group>"; };
+		9AD59A621A9DA7B400B4A222 /* PaySlipCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaySlipCalculator.h; sourceTree = "<group>"; };
+		9AD59A631A9DA7B400B4A222 /* PaySlipCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaySlipCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +99,17 @@
 			children = (
 				9AD094511A95F8FA0093D9AC /* AppDelegate.h */,
 				9AD094521A95F8FA0093D9AC /* AppDelegate.m */,
-				9AD094571A95F8FA0093D9AC /* ViewController.h */,
-				9AD094581A95F8FA0093D9AC /* ViewController.m */,
 				9AD0945A1A95F8FA0093D9AC /* Main.storyboard */,
+				9AD0947D1A95FCEE0093D9AC /* InputPayslipController.h */,
+				9AD0947E1A95FCEE0093D9AC /* InputPayslipController.m */,
+				9AD0947A1A95FC9B0093D9AC /* PayslipsController.h */,
+				9AD0947B1A95FC9B0093D9AC /* PayslipsController.m */,
+				9A1F78181A986E1F00C2B56A /* Employee.h */,
+				9A1F78191A986E2000C2B56A /* Employee.m */,
+				9AD59A621A9DA7B400B4A222 /* PaySlipCalculator.h */,
+				9AD59A631A9DA7B400B4A222 /* PaySlipCalculator.m */,
+				9AD59A571A9DA18800B4A222 /* TextfieldValidation.h */,
+				9AD59A581A9DA18800B4A222 /* TextfieldValidation.m */,
 				9AD0945D1A95F8FA0093D9AC /* Images.xcassets */,
 				9AD0945F1A95F8FA0093D9AC /* LaunchScreen.xib */,
 				9AD094541A95F8FA0093D9AC /* MonthlyPayslip.xcdatamodeld */,
@@ -108,7 +130,8 @@
 		9AD094691A95F8FB0093D9AC /* MonthlyPayslipTests */ = {
 			isa = PBXGroup;
 			children = (
-				9AD0946C1A95F8FB0093D9AC /* MonthlyPayslipTests.m */,
+				9AD59A601A9DA78B00B4A222 /* PaySlipCalculatorTest.m */,
+				9AD59A5E1A9DA56F00B4A222 /* TextfieldValidationTests.m */,
 				9AD0946A1A95F8FB0093D9AC /* Supporting Files */,
 			);
 			path = MonthlyPayslipTests;
@@ -222,10 +245,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD0947C1A95FC9B0093D9AC /* PayslipsController.m in Sources */,
 				9AD094531A95F8FA0093D9AC /* AppDelegate.m in Sources */,
+				9AD0947F1A95FCEE0093D9AC /* InputPayslipController.m in Sources */,
+				9A1F781A1A986E2000C2B56A /* Employee.m in Sources */,
 				9AD094561A95F8FA0093D9AC /* MonthlyPayslip.xcdatamodeld in Sources */,
-				9AD094591A95F8FA0093D9AC /* ViewController.m in Sources */,
 				9AD094501A95F8FA0093D9AC /* main.m in Sources */,
+				9AD59A591A9DA18800B4A222 /* TextfieldValidation.m in Sources */,
+				9AD59A641A9DA7B400B4A222 /* PaySlipCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AD0946D1A95F8FB0093D9AC /* MonthlyPayslipTests.m in Sources */,
+				9AD59A5F1A9DA56F00B4A222 /* TextfieldValidationTests.m in Sources */,
+				9AD59A611A9DA78B00B4A222 /* PaySlipCalculatorTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +444,7 @@
 				9AD094721A95F8FB0093D9AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AD094731A95F8FB0093D9AC /* Build configuration list for PBXNativeTarget "MonthlyPayslipTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +453,7 @@
 				9AD094751A95F8FB0093D9AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
